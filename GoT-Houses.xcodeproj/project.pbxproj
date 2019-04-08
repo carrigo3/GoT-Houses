@@ -7,14 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E1AFA42225BED0E00D5BACF /* HouseInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1AFA41225BED0E00D5BACF /* HouseInfo.swift */; };
+		8E1AFA44225BED6300D5BACF /* Houses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1AFA43225BED6300D5BACF /* Houses.swift */; };
+		8E1AFA46225BF32200D5BACF /* HouseDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1AFA45225BF32200D5BACF /* HouseDetailViewController.swift */; };
+		8E1AFA48225BFAD500D5BACF /* SplashScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1AFA47225BFAD500D5BACF /* SplashScreenViewController.swift */; };
 		8E8C1473225BE91200738EFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8C1472225BE91200738EFE /* AppDelegate.swift */; };
 		8E8C1475225BE91200738EFE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8C1474225BE91200738EFE /* ViewController.swift */; };
 		8E8C1478225BE91200738EFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E8C1476225BE91200738EFE /* Main.storyboard */; };
 		8E8C147A225BE91300738EFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E8C1479225BE91300738EFE /* Assets.xcassets */; };
 		8E8C147D225BE91300738EFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E8C147B225BE91300738EFE /* LaunchScreen.storyboard */; };
+		96DAD2690BDC89662400A615 /* Pods_GoT_Houses.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CA984EB3F4F63AF90F0D8BC /* Pods_GoT_Houses.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		80220C890C18B8D4D8917B63 /* Pods-GoT-Houses.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoT-Houses.debug.xcconfig"; path = "Target Support Files/Pods-GoT-Houses/Pods-GoT-Houses.debug.xcconfig"; sourceTree = "<group>"; };
+		8E1AFA41225BED0E00D5BACF /* HouseInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseInfo.swift; sourceTree = "<group>"; };
+		8E1AFA43225BED6300D5BACF /* Houses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Houses.swift; sourceTree = "<group>"; };
+		8E1AFA45225BF32200D5BACF /* HouseDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseDetailViewController.swift; sourceTree = "<group>"; };
+		8E1AFA47225BFAD500D5BACF /* SplashScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenViewController.swift; sourceTree = "<group>"; };
 		8E8C146F225BE91200738EFE /* GoT-Houses.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GoT-Houses.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E8C1472225BE91200738EFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8E8C1474225BE91200738EFE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +32,8 @@
 		8E8C1479225BE91300738EFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8E8C147C225BE91300738EFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8E8C147E225BE91300738EFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CA984EB3F4F63AF90F0D8BC /* Pods_GoT_Houses.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoT_Houses.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D840E70D6A3AF6A1EC4ACE18 /* Pods-GoT-Houses.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoT-Houses.release.xcconfig"; path = "Target Support Files/Pods-GoT-Houses/Pods-GoT-Houses.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +41,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96DAD2690BDC89662400A615 /* Pods_GoT_Houses.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		28F62DEB8BB86AF9B8954103 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				80220C890C18B8D4D8917B63 /* Pods-GoT-Houses.debug.xcconfig */,
+				D840E70D6A3AF6A1EC4ACE18 /* Pods-GoT-Houses.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		8E8C1466225BE91200738EFE = {
 			isa = PBXGroup;
 			children = (
 				8E8C1471225BE91200738EFE /* GoT-Houses */,
 				8E8C1470225BE91200738EFE /* Products */,
+				28F62DEB8BB86AF9B8954103 /* Pods */,
+				D1B6465F9EDE49494E3BFA56 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +79,25 @@
 			isa = PBXGroup;
 			children = (
 				8E8C1472225BE91200738EFE /* AppDelegate.swift */,
+				8E1AFA41225BED0E00D5BACF /* HouseInfo.swift */,
+				8E1AFA43225BED6300D5BACF /* Houses.swift */,
+				8E1AFA47225BFAD500D5BACF /* SplashScreenViewController.swift */,
 				8E8C1474225BE91200738EFE /* ViewController.swift */,
+				8E1AFA45225BF32200D5BACF /* HouseDetailViewController.swift */,
 				8E8C1476225BE91200738EFE /* Main.storyboard */,
 				8E8C1479225BE91300738EFE /* Assets.xcassets */,
 				8E8C147B225BE91300738EFE /* LaunchScreen.storyboard */,
 				8E8C147E225BE91300738EFE /* Info.plist */,
 			);
 			path = "GoT-Houses";
+			sourceTree = "<group>";
+		};
+		D1B6465F9EDE49494E3BFA56 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9CA984EB3F4F63AF90F0D8BC /* Pods_GoT_Houses.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +107,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8E8C1481225BE91300738EFE /* Build configuration list for PBXNativeTarget "GoT-Houses" */;
 			buildPhases = (
+				6EDC087EC6BF5D52617529DA /* [CP] Check Pods Manifest.lock */,
 				8E8C146B225BE91200738EFE /* Sources */,
 				8E8C146C225BE91200738EFE /* Frameworks */,
 				8E8C146D225BE91200738EFE /* Resources */,
+				EDD1A0B945C2804F69FBF514 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,13 +168,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6EDC087EC6BF5D52617529DA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoT-Houses-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDD1A0B945C2804F69FBF514 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoT-Houses/Pods-GoT-Houses-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GoT-Houses/Pods-GoT-Houses-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8E8C146B225BE91200738EFE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E1AFA46225BF32200D5BACF /* HouseDetailViewController.swift in Sources */,
 				8E8C1475225BE91200738EFE /* ViewController.swift in Sources */,
+				8E1AFA48225BFAD500D5BACF /* SplashScreenViewController.swift in Sources */,
 				8E8C1473225BE91200738EFE /* AppDelegate.swift in Sources */,
+				8E1AFA44225BED6300D5BACF /* Houses.swift in Sources */,
+				8E1AFA42225BED0E00D5BACF /* HouseInfo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,8 +371,9 @@
 		};
 		8E8C1482225BE91300738EFE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80220C890C18B8D4D8917B63 /* Pods-GoT-Houses.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L3UFM664Y8;
 				INFOPLIST_FILE = "GoT-Houses/Info.plist";
@@ -298,8 +390,9 @@
 		};
 		8E8C1483225BE91300738EFE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D840E70D6A3AF6A1EC4ACE18 /* Pods-GoT-Houses.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L3UFM664Y8;
 				INFOPLIST_FILE = "GoT-Houses/Info.plist";
